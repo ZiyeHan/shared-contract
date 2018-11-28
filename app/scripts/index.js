@@ -11,10 +11,10 @@ window.App = {
  start: function() {
   ShareD.setProvider(web3.currentProvider);
   // Tests
-  // registerAuthor('Chris', 'chris@ucsc.edu');
-  // listAllArticles();
-  // isRegistered();
-  // showArticleDetail(1, 1);
+  registerAuthor('Lucas', 'lucas@ucsc.edu');
+  listAllArticles();
+  isRegistered();
+  showArticleDetail(1, 1);
  }
 };
 
